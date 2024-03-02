@@ -8,11 +8,15 @@ setup(
     url="",
     description="Description of lib",
     packages=find_packages(),
+    install_requires=[
+          'requests',
+          'tqdm'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 
-    entry_points={"console_scripts": ["code_ph = code_ph.main:download"]},
+    entry_points={"console_scripts": ["code_ph = code_ph.main:main"]},
 )
