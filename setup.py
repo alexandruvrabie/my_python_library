@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="<libname>",
+    name="code_ph",
     version="0.0.1",
-    author="<author>",
-    author_email="<author_email>",
+    author="Alexandru Vrabie",
+    author_email="sandzel666@gmail.com",
     url="",
     description="Description of lib",
     packages=find_packages(),
@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
 
-    entry_points={"console_scripts": ["<libname> = <libname>.main:download"]},
+    entry_points={"console_scripts": ["code_ph = code_ph.main:download"]},
 )
